@@ -1,0 +1,49 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'w0ng/vim-hybrid'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+    let g:lightline = {'colorscheme': 'wombat'}
+'''
+[[plugins]]
+repo  = 'cespare/vim-toml'
+
+[[plugins]]
+repo = 'fatih/vim-go'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = "airblade/vim-gitgutter"
+
+[[plugins]]
+repo = "tpope/vim-fugitive"
+
+[[plugins]] # インデントを見やすく
+repo = 'Yggdroot/indentLine'
+
+[[plugins]] # j,kによる移動を爆速に
+repo = 'rhysd/accelerated-jk'
+
+[[plugins]] # 非同期処理
+repo = 'Shougo/vimproc.vim'
+
+[[plugins]] # 補完
+repo = 'Shougo/neocomplete.vim'
+
+[[plugins]] # メソッドの定義元にジャンプ
+repo = 'szw/vim-tags'
+
+[[plugins]] # Rubyのend補完
+repo = 'tpope/vim-endwise'
+
+[[plugins]] # ローカル変数ハイライト
+repo = 'todesking/ruby_hl_lvar.vim'
